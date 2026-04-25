@@ -1,5 +1,6 @@
 """Webhook notification service for Horizon."""
 
+import html
 import json
 import logging
 import os
@@ -14,6 +15,17 @@ logger = logging.getLogger(__name__)
 
 # Pattern: #{key} or #{key?param1=val1&param2=val2}
 _PLACEHOLDER_RE = re.compile(r"#\{(\w+)(\?\w+=[^}]+)?\}")
+_DETAILS_RE = re.compile(
+    r"<details>\s*<summary>(.*?)</summary>\s*(.*?)\s*</details>",
+    re.IGNORECASE | re.DOTALL,
+)
+_LI_LINK_RE = re.compile(
+    r"<li>\s*<a\s+[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>\s*</li>",
+    re.IGNORECASE | re.DOTALL,
+)
+_LI_RE = re.compile(r"<li>\s*(.*?)\s*</li>", re.IGNORECASE | re.DOTALL)
+_ANCHOR_ID_RE = re.compile(r"<a\s+[^>]*id=[\"'][^\"']+[\"'][^>]*>\s*</a>", re.IGNORECASE)
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
 def _truncate(value: str, limit: int, split: str) -> str:
@@ -100,6 +112,59 @@ def _render(template: Union[str, dict, list], variables: dict) -> Union[str, dic
     return template
 
 
+def _strip_html_tags(value: str) -> str:
+    """Remove simple HTML tags and decode HTML entities."""
+    return html.unescape(_HTML_TAG_RE.sub("", value)).strip()
+
+
+def _convert_details_to_markdown(value: str) -> str:
+    """Convert HTML details blocks into plain Markdown sections.
+
+    Feishu card Markdown does not render HTML disclosure widgets, so references
+    are flattened to a heading plus Markdown links before webhook delivery.
+    """
+    def _replace(match: re.Match) -> str:
+        title = _strip_html_tags(match.group(1)) or "References"
+        body = match.group(2)
+        items: list[str] = []
+
+        for href, label in _LI_LINK_RE.findall(body):
+            clean_label = _strip_html_tags(label)
+            clean_href = html.unescape(href).strip()
+            if clean_label and clean_href:
+                items.append(f"- [{clean_label}]({clean_href})")
+
+        if not items:
+            for item in _LI_RE.findall(body):
+                clean_item = _strip_html_tags(item)
+                if clean_item:
+                    items.append(f"- {clean_item}")
+
+        if not items:
+            fallback = _strip_html_tags(body)
+            return f"**{title}**\n\n{fallback}" if fallback else f"**{title}**"
+
+        return f"**{title}**\n\n" + "\n".join(items)
+
+    return _DETAILS_RE.sub(_replace, value)
+
+
+def _format_markdown_for_webhook(value: str) -> str:
+    """Flatten HTML constructs that chat/webhook Markdown often cannot render."""
+    value = _ANCHOR_ID_RE.sub("", value)
+    return _convert_details_to_markdown(value)
+
+
+def _prepare_variables_for_body(raw_body: Union[str, dict, list, None], variables: dict) -> dict:
+    """Apply webhook-safe variable formatting before body rendering."""
+    if raw_body is None or "summary" not in variables:
+        return variables
+
+    prepared = dict(variables)
+    prepared["summary"] = _format_markdown_for_webhook(str(variables["summary"]))
+    return prepared
+
+
 def _isjson(s: str) -> bool:
     """Return True if the string starts with a JSON open brace."""
     s = s.strip()
@@ -178,18 +243,19 @@ class WebhookNotifier:
         body_content = None
 
         raw_body = self.config.request_body
+        body_variables = _prepare_variables_for_body(raw_body, variables)
 
         if raw_body:
             method = "POST"
 
             if isinstance(raw_body, (dict, list)):
                 # Real JSON object/list: replace at value level, then serialize
-                rendered_obj = _render(raw_body, variables)
+                rendered_obj = _render(raw_body, body_variables)
                 body_content = json.dumps(rendered_obj, ensure_ascii=False)
                 content_type = "application/json"
                 logger.debug("Webhook POST body (dict/list, %d chars): %s", len(body_content), body_content[:2000])
             elif isinstance(raw_body, str) and raw_body.strip():
-                rendered = _render(raw_body, variables)
+                rendered = _render(raw_body, body_variables)
                 body_content = rendered
                 logger.debug("Webhook POST body (str, %d chars): %s", len(body_content), body_content[:2000])
                 # Detect content type from the rendered string

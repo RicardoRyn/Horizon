@@ -263,6 +263,8 @@ Available variables:
 | `#{timestamp}` | Unix timestamp |
 | `#{summary}` | Full summary Markdown |
 
+For webhook delivery, Horizon flattens HTML disclosure blocks such as `<details><summary>...</summary>` in `#{summary}` into plain Markdown link lists. This makes the generated summary easier to render in chat products. Saved Markdown files, GitHub Pages, and email content are unchanged.
+
 Use `#{key?limit=N&split=DELIM}` to truncate long values by splitting on `DELIM` and keeping segments until the total character count reaches `N`.
 
 ```text
@@ -287,10 +289,13 @@ In DingTalk, create a custom group robot and use a custom keyword such as `Horiz
 
 In Feishu or Lark, create a custom group robot and use a custom keyword such as `Horizon`. The keyword must appear in the body content.
 
+Use Card JSON 2.0 for Markdown rendering. The card must include `"schema": "2.0"` and put rich-text Markdown components under `card.body.elements`.
+
 ```json
 {
   "msg_type": "interactive",
   "card": {
+    "schema": "2.0",
     "config": {
       "wide_screen_mode": true
     },
@@ -301,19 +306,21 @@ In Feishu or Lark, create a custom group robot and use a custom keyword such as 
       },
       "template": "blue"
     },
-    "elements": [
-      {
-        "tag": "markdown",
-        "content": "Horizon result: #{result}\nHorizon important items: #{important_items}/#{all_items}"
-      },
-      {
-        "tag": "hr"
-      },
-      {
-        "tag": "markdown",
-        "content": "#{summary?limit=3000&split=---}"
-      }
-    ]
+    "body": {
+      "elements": [
+        {
+          "tag": "markdown",
+          "content": "Horizon result: #{result}\nHorizon important items: #{important_items}/#{all_items}"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "markdown",
+          "content": "#{summary}"
+        }
+      ]
+    }
   }
 }
 ```

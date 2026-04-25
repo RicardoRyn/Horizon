@@ -84,6 +84,7 @@
     "request_body": {
       "msg_type": "interactive",
       "card": {
+        "schema": "2.0",
         "config": {
           "wide_screen_mode": true
         },
@@ -94,19 +95,21 @@
           },
           "template": "blue"
         },
-        "elements": [
-          {
-            "tag": "markdown",
-            "content": "Horizon生成结果: #{result}\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
-          },
-          {
-            "tag": "hr"
-          },
-          {
-            "tag": "markdown",
-            "content": "#{summary}"
-          }
-        ]
+        "body": {
+          "elements": [
+            {
+              "tag": "markdown",
+              "content": "Horizon生成结果: #{result}\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
+            },
+            {
+              "tag": "hr"
+            },
+            {
+              "tag": "markdown",
+              "content": "#{summary}"
+            }
+          ]
+        }
       }
     },
     "headers": ""

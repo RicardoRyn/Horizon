@@ -10,6 +10,8 @@ import httpx
 from src.models import WebhookConfig
 from src.services.webhook import (
     WebhookNotifier,
+    _format_markdown_for_webhook,
+    _prepare_variables_for_body,
     _render,
     _truncate,
     _isjson,
@@ -64,14 +66,17 @@ class TestRenderDictAndList:
         obj = {
             "msg_type": "interactive",
             "card": {
+                "schema": "2.0",
                 "header": {"title": "Horizon #{date}"},
-                "elements": [{"tag": "markdown", "content": "#{summary}"}],
+                "body": {
+                    "elements": [{"tag": "markdown", "content": "#{summary}"}]
+                },
             },
         }
         variables = {"date": "2026-04-24", "summary": "## AI News\nLine 1"}
         result = _render(obj, variables)
         assert result["card"]["header"]["title"] == "Horizon 2026-04-24"
-        assert result["card"]["elements"][0]["content"] == "## AI News\nLine 1"
+        assert result["card"]["body"]["elements"][0]["content"] == "## AI News\nLine 1"
 
     def test_list(self):
         obj = ["#{date}", "#{result}", "static"]
@@ -191,6 +196,49 @@ class TestRenderParameterized:
         summary = "aaa---bbb---ccc"
         result = _render(template, {"date": "2026-04-24", "summary": summary})
         assert result == "2026-04-24: aaa---bbb---ccc"
+
+
+class TestWebhookMarkdownFormatting:
+    def test_details_references_are_flattened_for_webhook(self):
+        summary = """## Item
+
+<a id="item-1"></a>
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://example.com/a">Example A</a></li>
+<li><a href="https://example.com/b">Example B</a></li>
+</ul>
+</details>
+"""
+
+        result = _format_markdown_for_webhook(summary)
+
+        assert "<details>" not in result
+        assert "<summary>" not in result
+        assert '<a id="item-1"></a>' not in result
+        assert "**参考链接**" in result
+        assert "- [Example A](https://example.com/a)" in result
+        assert "- [Example B](https://example.com/b)" in result
+
+    def test_prepare_variables_changes_summary_for_any_post_body(self):
+        summary = "<details><summary>References</summary><ul><li>Plain item</li></ul></details>"
+        variables = {"summary": summary, "date": "2026-04-24"}
+        body = {"text": "#{summary}"}
+
+        result = _prepare_variables_for_body(body, variables)
+
+        assert result is not variables
+        assert result["summary"] == "**References**\n\n- Plain item"
+        assert variables["summary"] == summary
+
+    def test_prepare_variables_keeps_summary_unchanged_without_body(self):
+        summary = "<details><summary>References</summary><ul><li>Plain item</li></ul></details>"
+        variables = {"summary": summary}
+
+        result = _prepare_variables_for_body(None, variables)
+
+        assert result is variables
+        assert result["summary"] == summary
 
 
 # ── JSON prefix detection ──
@@ -473,8 +521,11 @@ class TestWebhookNotifier:
             request_body={
                 "msg_type": "interactive",
                 "card": {
+                    "schema": "2.0",
                     "header": {"title": "Horizon #{date}"},
-                    "elements": [{"tag": "markdown", "content": "#{summary}"}],
+                    "body": {
+                        "elements": [{"tag": "markdown", "content": "#{summary}"}]
+                    },
                 },
             },
         )
@@ -500,7 +551,7 @@ class TestWebhookNotifier:
             body_str = call_kwargs["content"].decode("utf-8")
             parsed = json.loads(body_str)
             assert parsed["card"]["header"]["title"] == "Horizon 2026-04-24"
-            assert parsed["card"]["elements"][0]["content"] == "## News\nLine 1"
+            assert parsed["card"]["body"]["elements"][0]["content"] == "## News\nLine 1"
         del os.environ[_TEST_URL_ENV]
 
     def test_post_request_with_dict_body_and_special_chars(self):
