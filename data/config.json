@@ -20,34 +20,6 @@
         "enabled": true
       },
       {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "vllm-project",
-        "repo": "vllm",
-        "enabled": true
-      },
-      {
-        "type": "user_events",
-        "username": "karpathy",
-        "owner": null,
-        "repo": null,
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "rust-lang",
-        "repo": "rust",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "ziglang",
-        "repo": "zig",
-        "enabled": true
-      },
-      {
         "type": "user_events",
         "username": "torvalds",
         "owner": null,
@@ -55,24 +27,10 @@
         "enabled": true
       },
       {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "lightning-ai",
-        "repo": "llm-inference-engine",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "open-embodied",
-        "repo": "agent-core",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "username": null,
-        "owner": "triton-lang",
-        "repo": "triton",
+        "type": "user_events",
+        "username": "karpathy",
+        "owner": null,
+        "repo": null,
         "enabled": true
       }
     ],
@@ -82,6 +40,12 @@
       "min_score": 100
     },
     "rss": [
+      {
+        "name": "Nature",
+        "url": "https://www.nature.com/nature.rss",
+        "enabled": true,
+        "category": ""
+      },
       {
         "name": "Simon Willison",
         "url": "https://simonwillison.net/atom/everything/",
@@ -101,40 +65,22 @@
         "category": ""
       },
       {
-        "name": "Brendan Gregg",
-        "url": "https://www.brendangregg.com/blog/rss.xml",
-        "enabled": true,
-        "category": ""
-      },
-      {
         "name": "LWN.net",
         "url": "https://lwn.net/headlines/rss",
         "enabled": true,
         "category": ""
       },
       {
-        "name": "Embodied AI Research Notes",
-        "url": "https://embodied-ai-research.substack.com/feed",
+        "name": "LWN.net",
+        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": true,
-        "category": "AI & Robotics"
-      },
-      {
-        "name": "Performance-First AI Systems",
-        "url": "https://performance-ai.dev/rss",
-        "enabled": true,
-        "category": "Systems & Performance"
+        "category": "linux-kernel"
       },
       {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
         "category": "github-trending"
-      },
-      {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": true,
-        "category": "linux-kernel"
       }
     ],
     "reddit": {
@@ -142,6 +88,22 @@
       "subreddits": [
         {
           "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "neovim",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "python",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
@@ -157,7 +119,7 @@
           "min_score": 60
         },
         {
-          "subreddit": "MachineLearning",
+          "subreddit": "commandline",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
@@ -165,28 +127,12 @@
           "min_score": 60
         },
         {
-          "subreddit": "ProgrammingLanguages",
+          "subreddit": "science",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
           "min_score": 60
-        },
-        {
-          "subreddit": "linux",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
-          "subreddit": "r/rustsystems",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 50
         }
       ],
       "users": [],
@@ -195,11 +141,6 @@
     "telegram": {
       "enabled": true,
       "channels": [
-        {
-          "channel": "@openai_rust_devs",
-          "enabled": true,
-          "fetch_limit": 20
-        },
         {
           "channel": "zaihuapd",
           "enabled": true,
