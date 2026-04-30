@@ -25,13 +25,6 @@
         "owner": null,
         "repo": null,
         "enabled": true
-      },
-      {
-        "type": "user_events",
-        "username": "karpathy",
-        "owner": null,
-        "repo": null,
-        "enabled": true
       }
     ],
     "hackernews": {
@@ -40,18 +33,6 @@
       "min_score": 100
     },
     "rss": [
-      {
-        "name": "Nature",
-        "url": "https://www.nature.com/nature.rss",
-        "enabled": true,
-        "category": ""
-      },
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": ""
-      },
       {
         "name": "量子位",
         "url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
@@ -65,22 +46,28 @@
         "category": ""
       },
       {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/rss",
-        "enabled": true,
-        "category": ""
-      },
-      {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": true,
-        "category": "linux-kernel"
-      },
-      {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
         "category": "github-trending"
+      },
+      {
+        "name": "小众软件",
+        "url": "https://feeds.appinn.com/appinns/",
+        "enabled": true,
+        "category": ""
+      },
+      {
+        "name": "国家统计局",
+        "url": "https://www.stats.gov.cn/sj/sjjd/rss.xml",
+        "enabled": true,
+        "category": ""
+      },
+      {
+        "name": "人民网",
+        "url": "http://www.people.com.cn/rss/ywkx.xml",
+        "enabled": true,
+        "category": ""
       }
     ],
     "reddit": {
@@ -103,31 +90,7 @@
           "min_score": 60
         },
         {
-          "subreddit": "python",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
-          "subreddit": "rust",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
           "subreddit": "commandline",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
-          "subreddit": "science",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
