@@ -11,7 +11,14 @@
     "languages": ["zh"]
   },
   "sources": {
-    "github": [],
+    "github": [
+      {
+        "type": "repo_releases",
+        "owner": "jj-vcs",
+        "repo": "jj",
+        "enabled": true
+      }
+    ],
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
@@ -23,6 +30,16 @@
         "url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
         "enabled": true,
         "category": ""
+      },
+      {
+        "name": "GitHub Trending - Daily",
+        "url": "https://mshibanern.github.io/GitHubTrendingRSS/daily/all.xml",
+        "enabled": true
+      },
+      {
+        "name": "ruanyifeng",
+        "url": "https://www.ruanyifeng.com/blog/atom.xml",
+        "enabled": true
       }
     ],
     "reddit": {
@@ -30,6 +47,14 @@
       "subreddits": [
         {
           "subreddit": "neovim",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "commandline",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
