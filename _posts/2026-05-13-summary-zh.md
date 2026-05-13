@@ -5,450 +5,395 @@ date: 2026-05-13
 lang: zh
 ---
 
-> From 43 items, 21 important content pieces were selected
+> From 36 items, 17 important content pieces were selected
 
 ---
 
-1. [宇树发布全球首款量产载人变形机甲 GD01，定价 390 万元](#item-1) ⭐️ 9.0/10
-2. [Restore full BambuNetwork support for Bambu Lab printers](#item-2) ⭐️ 8.0/10
-3. [Needle：从 Gemini 提炼的 2600 万参数工具调用模型](#item-3) ⭐️ 8.0/10
-4. [CERT 发布 dnsmasq 六个严重 CVE 漏洞](#item-4) ⭐️ 8.0/10
-5. [DuckDB 推出 Quack 客户端-服务器协议](#item-5) ⭐️ 8.0/10
-6. [大气散射天空渲染技术深度解析](#item-6) ⭐️ 8.0/10
-7. [Bambu Lab 被指违反开源社会契约](#item-7) ⭐️ 8.0/10
-8. [EFF 向第四巡回法院主张：边境电子设备搜查须有搜查令](#item-8) ⭐️ 8.0/10
-9. [加拿大 C-22 法案用后门和数据保留威胁加密通讯](#item-9) ⭐️ 8.0/10
-10. [Canvas 遭勒索软件攻击，扰乱美国学校期末周](#item-10) ⭐️ 8.0/10
-11. [SpaceX 与谷歌磋商轨道数据中心发射合作](#item-11) ⭐️ 8.0/10
-12. [谷歌将推出‘Googlebook’笔记本取代 Chromebook，集成 Gemini AI](#item-12) ⭐️ 8.0/10
-13. [资深开发者为何难以传达专长](#item-13) ⭐️ 7.0/10
-14. [请愿要求《纽约时报》《大西洋月刊》《今日美国》取消对 Wayback Machine 的屏蔽](#item-14) ⭐️ 7.0/10
-15. [Obsidian 推出社区网站和自动化插件审核系统](#item-15) ⭐️ 7.0/10
-16. [中国附条件批准腾讯收购喜马拉雅](#item-16) ⭐️ 7.0/10
-17. [Anthropic 拒绝中国智库接触最新 AI 模型](#item-17) ⭐️ 7.0/10
-18. [美国商务部移除 AI 安全测试协议细节](#item-18) ⭐️ 7.0/10
-19. [谷歌宣布夏天推出 Android 版 Gemini Intelligence](#item-19) ⭐️ 7.0/10
-20. [三星工会抗议导致芯片产出暴跌 58%](#item-20) ⭐️ 7.0/10
-21. [英伟达 CEO 黄仁勋将随特朗普访华](#item-21) ⭐️ 7.0/10
+1. [MacBook Neo 深度剖析：基准测试、晶圆经济学与 8GB 争议](#item-1) ⭐️ 8.0/10
+2. [LLMs 让软件变得像 Emacs 配置一样个性化](#item-2) ⭐️ 8.0/10
+3. [双胞胎兄弟被解雇后清除 96 个政府数据库](#item-3) ⭐️ 8.0/10
+4. [健康保险公司如何用算法拒绝理赔](#item-4) ⭐️ 8.0/10
+5. [从 GitHub 迁移到自托管的 Forgejo](#item-5) ⭐️ 8.0/10
+6. [我迁移数字服务到欧洲](#item-6) ⭐️ 8.0/10
+7. [Needle：从 Gemini 蒸馏的 2600 万参数工具调用模型](#item-7) ⭐️ 8.0/10
+8. [工作时间贡献开源指南](#item-8) ⭐️ 8.0/10
+9. [SpaceX 与谷歌磋商轨道数据中心合作](#item-9) ⭐️ 8.0/10
+10. [Google 将用 AI 驱动的 Googlebook 取代 Chromebook](#item-10) ⭐️ 8.0/10
+11. [三星工会抗议致芯片产出骤降，威胁供应链](#item-11) ⭐️ 8.0/10
+12. [小米开源自动驾驶潜空间推理框架 OneVL](#item-12) ⭐️ 8.0/10
+13. [免费 .city.state.us 地区域名设置指南 (2025)](#item-13) ⭐️ 7.0/10
+14. [美国在 AI 商业化中领先，但盈利能力存疑](#item-14) ⭐️ 7.0/10
+15. [Google 发布 Gemini Intelligence，今夏登陆 Pixel 和三星](#item-15) ⭐️ 7.0/10
+16. [Meta 员工反对用工作行为数据训练 AI](#item-16) ⭐️ 7.0/10
+17. [英伟达 CEO 黄仁勋将随特朗普访华](#item-17) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [宇树发布全球首款量产载人变形机甲 GD01，定价 390 万元](https://m.mydrivers.com/newsview/1121657.html) ⭐️ 9.0/10
+## [MacBook Neo 深度剖析：基准测试、晶圆经济学与 8GB 争议](https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/) ⭐️ 8.0/10
 
-宇树科技发布了全球首款量产版载人变形机甲 GD01，定价 390 万元起。该机甲可在双足直立行走和四足行进模式之间切换，定位为民用交通工具，可用于文旅展示、特种作业等领域。 这标志着从原型机器人到商业化产品的重大跨越，可能为个人机甲交通工具开辟新市场。它表明先进机器人技术已足够成熟，可用于实际民用场景，可能影响未来的交通和娱乐行业。 GD01 整机重约 500 kg，采用高强度合金与精密伺服驱动，单拳即可锤倒砖墙。该产品由宇树全自研，预计将应用于文旅展示、特种作业和私人高端出行等场景。
+一篇详细分析 MacBook Neo 性能基准、定价背后的晶圆经济学以及备受争议的 8GB 内存配置的文章已经发布。 该分析揭示了苹果在低价笔记本电脑领域的成本与性能取舍，影响消费者决策并引发关于合理内存容量的行业讨论。 MacBook Neo 通过晶圆经济学采用了低成本芯片，但单一的 USB 3 端口和 8GB 内存可能限制了重度用户的长期可用性。
 
-telegram · zaihuapd · May 12, 05:25
+hackernews · tosh · May 13, 18:30 · [社区讨论](https://news.ycombinator.com/item?id=48125617)
 
-**背景**: 宇树科技是一家中国机器人公司，以 Go2 和 B2 等四足机器人闻名。变形机甲是一种能在人形（双足）和四足形态之间变换的交通工具，既可直立行走，也可快速地面行进。量产意味着该公司打算向客户销售这些车辆，而不仅仅是展示原型。
+**背景**: 晶圆经济学指的是在硅晶圆上制造半导体芯片的成本，这是设备定价的主要因素。较小的芯片每片晶圆产出更多，降低单个芯片成本，而较大的芯片则更贵。苹果通过使用分选或旧款芯片来提供像 MacBook Neo 这样的低价设备。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=V_MUtEDKHbo">宇树发布首款载人 变 形 机 甲 ｜阿凡达战 甲 成为现实 ｜宇树发布: GD01...</a></li>
-<li><a href="https://m.163.com/dy/video/VDRQ2U6BD.html">宇树突然甩高燃大招！ 发布大型载人 变 形 机 甲 ，定价390...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wafer_(electronics)">Wafer (electronics) - Wikipedia</a></li>
+<li><a href="https://siliconanalysts.com/guide/semiconductor-costs">Semiconductor Manufacturing Costs Explained: $2,500 to $20,000 Per Wafer by Node (2026) | Silicon Analysts</a></li>
 
 </ul>
 </details>
 
-**标签**: `#robotics`, `#mecha`, `#unitree`, `#transforming vehicle`, `#innovation`
+**社区讨论**: 评论者普遍赞赏 MacBook Neo 的性价比，一些人认为 8GB 内存足以满足典型使用，而另一些人批评其有限的 I/O 和潜在的计划性淘汰。有用户报告其 8GB M1 Air 作为主力机使用了两年，暗示 Neo 也能有类似表现。
+
+**标签**: `#Apple`, `#MacBook`, `#hardware analysis`, `#RAM`, `#performance`
 
 ---
 
 <a id="item-2"></a>
-## [Restore full BambuNetwork support for Bambu Lab printers](https://github.com/FULU-Foundation/OrcaSlicer-bambulab) ⭐️ 8.0/10
+## [LLMs 让软件变得像 Emacs 配置一样个性化](https://sockpuppet.org/blog/2026/05/12/emacsification/) ⭐️ 8.0/10
 
-A fork of OrcaSlicer restores full BambuNetwork support for Bambu Lab printers, countering recent cloud-auth restrictions.
+一篇最新文章认为，借助大型语言模型（LLMs），软件开发变得像 Emacs 配置一样个性化和可定制，每个用户都构建自己的定制工具，而不是安装现有工具。 这一观点表明，LLMs 降低了创建个人软件的门槛，可能将软件开发从专业活动转变为普遍的个人实践，让人联想到家用计算的原始愿景。 该文章发布在 sockpuppet.org 上，在 Hacker News 上获得高度关注，有 135 个赞和 89 条评论，包括著名用户 dang，他赞同这一观点。
 
-hackernews · Murfalo · May 12, 21:55 · [社区讨论](https://news.ycombinator.com/item?id=48115127)
+hackernews · rdslw · May 13, 07:06 · [社区讨论](https://news.ycombinator.com/item?id=48118727)
 
-**标签**: `#3D printing`, `#open-source`, `#Bambu Lab`, `#OrcaSlicer`, `#firmware modding`
+**背景**: Emacs 是一系列高度可扩展的文本编辑器，以其可定制性著称，使用 Emacs Lisp 允许用户编写自己的命令和应用程序。这里的'Emacs 化'一词指的是每个用户最终都拥有独特、个性化的软件配置，类似于配置 Emacs 的趋势。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Emacs">Emacs</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论包括关于 vi 与 Emacs 的幽默言论、使用 LLMs 构建软件的个人经验，以及 dang 对该文章论点的支持，他一直在倡导类似观点。一些用户提出反对意见，指出 Emacs 配置可能很脆弱且难以跨平台维护。
+
+**标签**: `#emacs`, `#personal-software`, `#LLMs`, `#software-customization`, `#hacker-news-discussion`
 
 ---
 
 <a id="item-3"></a>
-## [Needle：从 Gemini 提炼的 2600 万参数工具调用模型](https://github.com/cactus-compute/needle) ⭐️ 8.0/10
+## [双胞胎兄弟被解雇后清除 96 个政府数据库](https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/) ⭐️ 8.0/10
 
-Cactus 团队开源了 Needle，一个 2600 万参数的工具调用模型，在消费设备上实现每秒 6000 token 预填充和每秒 1200 token 解码。它采用无 MLP 的简单注意力网络，通过从 Gemini 蒸馏训练，预训练 200B token，函数调用数据 2B token。 Needle 证明大型模型对于工具调用而言是大材小用，因为工具调用更多是检索而非推理，从而可以在手机、手表和眼镜上实现高效的设备端智能体体验。这为完全本地运行、保护隐私、低延迟的 AI 助手开辟了可能性。 该模型在 16 个 TPU v6e 上使用 200B token 预训练 27 小时，然后使用来自 Gemini 合成的 2B token 函数调用数据（覆盖 15 种工具类别）进行后训练。在单次函数调用上，它击败了 FunctionGemma-270M 和 Qwen-0.6B 等更大模型，但这些模型具有更广泛的对话能力。
+两名双胞胎兄弟作为政府承包商的数据库管理员，在 2025 年 3 月 12 日被解雇几分钟后，利用其管理权限删除了 96 个联邦数据库。 这一事件凸显了访问终止程序和内部威胁管理的关键缺陷，可能影响多个联邦机构的数百万条记录。 其中一名兄弟执行了'DROP DATABASE dhsproddb'命令清除了国土安全部的数据库，并且他们可以访问以明文存储的 5000 个密码。
 
-hackernews · HenryNdubuaku · May 12, 18:03 · [社区讨论](https://news.ycombinator.com/item?id=48111896)
+hackernews · jnord · May 12, 22:28 · [社区讨论](https://news.ycombinator.com/item?id=48115438)
 
-**背景**: 工具调用（或称函数调用）允许语言模型通过生成结构化 JSON 输出来调用外部 API 或函数。传统 transformer 模型使用多层感知器（MLP）存储事实知识，但 Needle 的见解是，当工具在上下文中提供时，模型可以依靠交叉注意力将查询匹配到工具描述，从而无需 MLP。这种称为简单注意力网络（Simple Attention Networks）的方法移除了所有前馈层。
+**背景**: 这两兄弟受雇于政府承包商 Opexus，他们的管理权限在解雇时未被立即撤销。内部威胁是网络安全中日益严重的问题，糟糕的离职流程可能导致灾难性的数据丢失。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/cactus-compute/needle/blob/main/docs/simple_attention_networks.md">needle/docs/simple_attention_networks.md at main · cactus-compute/needle</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">Attention (machine learning) - Wikipedia</a></li>
+**社区讨论**: 评论者对明文密码存储和未立即撤销访问权限表示震惊，一些人担心雇主会采取过于严苛的解雇程序。其他人则在兄弟间的争吵和雇佣责任人被解雇的蒙提·派森式情节中找到了黑色幽默。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者对小模型在命令行程序和注重隐私的桌面应用中的可行性表现出兴趣，有人指出可以微调以理解自定义工具。还建议发布实时演示，并对命名约定（26M vs 0.026B）提出反馈。
-
-**标签**: `#tool calling`, `#small language models`, `#edge computing`, `#efficient inference`, `#open source`
+**标签**: `#security`, `#insider threat`, `#access management`, `#database administration`, `#real-world incident`
 
 ---
 
 <a id="item-4"></a>
-## [CERT 发布 dnsmasq 六个严重 CVE 漏洞](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html) ⭐️ 8.0/10
+## [健康保险公司如何用算法拒绝理赔](https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations) ⭐️ 8.0/10
 
-CERT 披露了 dnsmasq 中六个严重安全漏洞，影响其 DNS 和 DHCP 组件，最新版本已提供补丁。 由于 dnsmasq 广泛用于家用路由器、物联网设备和 Linux 发行版，这些漏洞对网络安全和隐私构成重大风险。 这些 CVE 涉及缓冲区溢出等内存安全问题，可能导致远程代码执行或拒绝服务。用户应升级到 dnsmasq 2.90 或更高版本。
+ProPublica 的一项调查揭露，包括 Cigna、UnitedHealthcare 和 Aetna 在内的大型健康保险公司依赖算法（具体通过 eviCore 公司）系统性地拒绝医疗服务理赔，即使医生认为这些服务是必要的。 这种做法导致患者护理被延迟或拒绝，增加了医疗提供者的行政负担，并引发了对算法在医疗决策中使用的严重伦理和法律问题。 算法标记请求以供审查，然后由护士或非医生人员处理；只有医生才能做出最终拒绝决定。诉讼指控大约 90%的此类拒绝在申诉中被推翻。
 
-hackernews · chizhik-pyzhik · May 12, 18:12 · [社区讨论](https://news.ycombinator.com/item?id=48112042)
+hackernews · ceejayoz · May 13, 19:01 · [社区讨论](https://news.ycombinator.com/item?id=48126000)
 
-**背景**: Dnsmasq 是一个轻量级开源工具，为小型网络提供 DNS 缓存、DHCP 服务器、TFTP 和网络启动服务。它集成在众多 Linux 发行版和嵌入式系统中。内存安全指防止缓冲区溢出等 bug；C 语言不安全，而 Rust 和 Java 提供安全保证。
+**背景**: 预先授权是健康保险公司在覆盖特定服务、药物或程序前要求获得批准的过程。保险公司越来越多地使用算法来自动审查这些请求，经常将其标记为“非医疗必要”。批评者认为，这些算法旨在最小化赔付，而非确保适当的护理。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Dnsmasq">Dnsmasq</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Memory_safety">Memory safety</a></li>
+<li><a href="https://www.aapc.com/blog/93960-taking-a-stand-against-ai-denials/">Taking a Stand Against AI Denials - AAPC Knowledge Center</a></li>
+<li><a href="https://www.theregreview.org/2025/03/18/phillips-algorithms-deny-humans-health-care/">Algorithms Deny Humans Health Care | The Regulatory Review</a></li>
+<li><a href="https://news.bloomberglaw.com/daily-labor-report/ai-algorithm-based-health-insurer-denials-pose-new-legal-threat">AI, Algorithm-Based Health Insurer Denials Pose New Legal Threat</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者强调迁移到 Rust 或 Go 等内存安全语言的紧迫性，批评 Debian 缓慢的更新策略（仅向后移植补丁），并指出 MaraDNS 等替代方案漏洞较少。部分人表示倾向于将 DNS 和 DHCP 功能分离。
+**社区讨论**: 评论包括一位医生描述与非医生工作人员进行的令人沮丧的“同行评审”，一位用户对比传统 Medicare 与私人 Medicare Advantage 计划，以及对诸如将传真机设置为仅接收 5-10 页以逃避处理理赔等愤世嫉俗策略的愤怒。
 
-**标签**: `#security`, `#dnsmasq`, `#CVE`, `#memory safety`, `#open source`
+**标签**: `#Healthcare`, `#Algorithms`, `#Insurance`, `#Prior Authorization`, `#Investigative Journalism`
 
 ---
 
 <a id="item-5"></a>
-## [DuckDB 推出 Quack 客户端-服务器协议](https://duckdb.org/2026/05/12/quack-remote-protocol) ⭐️ 8.0/10
+## [从 GitHub 迁移到自托管的 Forgejo](https://jorijn.com/en/blog/leaving-github-for-forgejo/) ⭐️ 8.0/10
 
-DuckDB 宣布了 Quack 协议（在 1.5.2 版本中可用），该协议允许 DuckDB 实例通过网络连接，实现嵌入式分析数据库的远程访问和水平扩展。 这很重要，因为它解决了 DuckDB 在扩展和远程访问方面的关键限制，使其适用于多用户环境和更大的工作负载，可能扩大其在企业场景中的采用。 Quack 协议基于 HTTP，支持 DuckDB-Wasm 原生使用。它通过 core_nightly 仓库提供，可视为 DuckDB 的 RPC 协议。
+一位开发者公开记录了将全部仓库从 GitHub 迁移到自托管 Forgejo 实例的决定，理由涉及对 AI 抓取、中心化以及联邦化需求的担忧。 这一举动反映了开发者中日益增长的趋势，即通过离开 GitHub 等中心化平台，重新掌握对代码和数据的控制权，转而支持符合 Git 原始去中心化精神的联邦化或自托管替代方案。 Forgejo 是 Gitea 的社区驱动分支，使用 Go 语言编写，采用 GPLv3 许可，提供仓库托管、问题跟踪和 CI/CD 等功能。作者承认存在权衡，例如失去 GitHub 社交图谱和可发现性，但指出 GitSocial 等工具有助于保留协作历史。
 
-hackernews · aduffy · May 12, 17:54 · [社区讨论](https://news.ycombinator.com/item?id=48111765)
+hackernews · jorijn · May 13, 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48121266)
 
-**背景**: DuckDB 是一个针对分析查询优化的进程内 SQL 数据库，常被比作分析领域的 SQLite。传统上，它嵌入在应用程序中运行，不支持远程连接或多用户访问。Quack 协议引入了客户端-服务器模式，使 DuckDB 能够作为共享、可扩展的数据库服务使用。
+**背景**: GitHub 是最大的中心化 Git 托管平台，但其被用于 AI 训练以及被微软收购等因素，促使一些开发者寻求替代方案。Forgejo 是一种自托管的软件锻造厂（forge），允许完全控制仓库，类似于 Gitea，并支持联邦化以实现跨实例协作。转向自托管锻造厂符合 Git 的去中心化特性，Git 本身的设计初衷就是无需中央权威即可运行。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://duckdb.org/2026/05/12/quack-remote-protocol">Quack : The DuckDB Client-Server Protocol – DuckDB</a></li>
-<li><a href="https://duckdb.org/quack/">The quack : protocol allows you to introduce remote access to DuckDB .</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Forgejo">Forgejo</a></li>
+<li><a href="https://forgejo.org/">Forgejo – Beyond coding. We forge.</a></li>
+<li><a href="https://rodak.pro/self-hosted-git-forgejo-2026/">Host Your Own GitHub with Forgejo — Free Private Git Repos (2026)</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应非常积极，用户称赞 Quack 解决了实际的扩展和远程访问问题。一些评论者指出这明确了 DuckDB 作为'分析领域的 SQLite'的方向，少数人则对 DuckDB 不断变化的角色表示不确定。
+**社区讨论**: 社区评论普遍支持这一决定，用户强调联邦化是变革性的，并向 Forgejo 和 Codeberg 捐款。一些人表达了对 Git 去中心化理想的怀旧，并建议保留 GitHub 镜像，而另一些人则担心 AI 抓取以及在自托管实例上屏蔽抓取工具的负担。
 
-**标签**: `#DuckDB`, `#client-server`, `#database`, `#analytics`, `#protocol`
+**标签**: `#GitHub`, `#Forgejo`, `#self-hosting`, `#decentralization`, `#open source`
 
 ---
 
 <a id="item-6"></a>
-## [大气散射天空渲染技术深度解析](https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/) ⭐️ 8.0/10
+## [我迁移数字服务到欧洲](https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/) ⭐️ 8.0/10
 
-Maxime Heckel 的这篇文章利用大气散射技术（包括单次和多次散射近似），通过交互式网络演示，详细解释了天空、日落和行星的渲染方法。 它为图形程序员和爱好者提供了宝贵的资源，展示了如何在现代网络浏览器上实时实现逼真的天空渲染，这对游戏、模拟和教育工具有重要意义。 文章涵盖了瑞利散射和米氏散射的数学原理，使用光线步进进行积分，并实现了 Nishita 等人 1993 年的单次散射模型和一种多次散射近似。日落演示被指出在太阳落入地平线后缺乏暮光效果。
+一名用户记录了将数字服务从美国提供商迁移到欧洲替代方案的过程，并概述了实际步骤和考虑因素。 这展示了数字主权和基础设施地缘政治多元化的增长趋势，可能影响个人和企业对待云托管和隐私的方式。 作者从 Cloudflare 等服务迁移到 Bunny CDN，并使用 Terraform 设置了跨提供商的高可用性，而社区则讨论了欧盟数字政策的影响。
 
-hackernews · ibobev · May 12, 13:26 · [社区讨论](https://news.ycombinator.com/item?id=48107997)
+hackernews · monokai_nl · May 13, 11:42 · [社区讨论](https://news.ycombinator.com/item?id=48120629)
 
-**背景**: 大气散射是光与大气中的粒子相互作用的物理现象，导致天空呈现蓝色而日落呈现红色。实时渲染它需要简化模型，如单次散射和查找表。本文建立在计算机图形学的经典工作之上，特别是 Nishita 等人 1993 年的论文以及 Sean O'Neil 在 GPU Gems 中的现代实现。
+**背景**: 数字主权指国家控制自身数字基础设施和数据的能力。数据本地化法律要求公民数据存储在国家境内。这些概念推动了使用欧洲云提供商以减少对美国科技巨头依赖的势头。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/simulating-sky/simulating-colors-of-the-sky.html">Simulating the Colors of the Sky</a></li>
-<li><a href="https://developer.nvidia.com/gpugems/gpugems2/part-ii-shading-lighting-and-shadows/chapter-16-accurate-atmospheric-scattering">Chapter 16. Accurate Atmospheric Scattering | NVIDIA Developer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_sovereignty">Digital sovereignty</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Data_localization">Data localization</a></li>
+<li><a href="https://www.ovhcloud.com/en/learn/what-is-sovereign-cloud/">What is Sovereign Cloud? Ensuring Data Sovereignty and Security | OVHcloud Worldwide</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对文章的深度和交互性表示赞赏，有人分享了相关项目，如 Sebastian Lague 的行星生成视频。一位评论者指出一个局限性：日落模型缺乏暮光阶段，在太阳低于地平线 18 度之前天空本应保持明亮。总体情绪积极且富有建设性。
+**社区讨论**: 评论者分享了不同观点，一些人称赞迁移带来的隐私和主权，另一些人则警告称欧盟并非避风港，可能实施自己的限制，例如为保护儿童而可能禁止 VPN。
 
-**标签**: `#computer graphics`, `#atmospheric scattering`, `#rendering`, `#shaders`, `#procedural generation`
+**标签**: `#infrastructure`, `#cloud migration`, `#EU digital sovereignty`, `#privacy`, `#geopolitics`
 
 ---
 
 <a id="item-7"></a>
-## [Bambu Lab 被指违反开源社会契约](https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/) ⭐️ 8.0/10
+## [Needle：从 Gemini 蒸馏的 2600 万参数工具调用模型](https://github.com/cactus-compute/needle) ⭐️ 8.0/10
 
-Bambu Lab 因实施限制性云策略并威胁一位独立开发者，导致 OrcaSlicer 的一个分支项目被迫关闭，被指责违反了开源社会契约。 此争议凸显了专有云服务与开源软件之间的紧张关系，可能削弱社区对 Bambu Lab 支持开源承诺的信任，并对整个 3D 打印生态系统产生影响。 该改动在网络通信中注入了伪造的身份元数据，Bambu Lab 声称这导致了服务器压力，但批评者认为用户代理字符串并非有效的安全机制。
+这证明对于工具调用（更多是检索和组装而非推理）来说，大模型是杀鸡用牛刀；该模型可在手机、可穿戴设备等上高效运行。 Needle 在 16 个 TPU v6e 上用 200B token 预训练了 27 小时，再用 2B token 的合成函数调用数据（覆盖 15 种工具类别）进行后训练；它在单次函数调用上超越了 FunctionGemma-270M、Qwen-0.6B 等更大模型。
 
-hackernews · rubenbe · May 12, 14:54 · [社区讨论](https://news.ycombinator.com/item?id=48109224)
+hackernews · HenryNdubuaku · May 12, 18:03 · [社区讨论](https://news.ycombinator.com/item?id=48111896)
 
-**背景**: 开源社会契约源于 Debian 项目，阐述了开发者与用户在软件自由方面的承诺。Bambu Lab 的打印机依赖 Marlin 等开源软件与专有云基础设施的结合，而其云系统并非开源。此次事件之前，该公司曾因未包含局域网模式而遭到反弹。
+**背景**: 模型蒸馏将知识从大型教师模型转移到更小的学生模型，使其能在低性能硬件上部署。交叉注意力是一种让一个序列关注另一个序列的机制，适用于将工具定义与用户查询对齐。Needle 采用了简单注意力网络架构，移除了所有前馈层，仅依靠注意力机制和门控，适用于输入中提供外部知识的任务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/">Bambu Lab is abusing the open source social contract - Jeff Geerling</a></li>
-<li><a href="https://news.slashdot.org/story/26/05/11/0235215/open-source-project-shuts-down-over-legal-threats-from-3d-printer-company-bambu-lab">Open Source Project Shuts Down Over Legal Threats from 3D Printer Company Bambu Lab - Slashdot</a></li>
-<li><a href="https://www.fabbaloo.com/news/bambu-lab-cloud-access-dispute-highlights-tensions-with-open-source-community">Bambu Lab Cloud Access Dispute Highlights Tensions With Open Source Community « Fabbaloo</a></li>
+<li><a href="https://www.geeksforgeeks.org/nlp/cross-attention-mechanism-in-transformers/">Cross-Attention Mechanism in Transformers - GeeksforGeeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
+<li><a href="https://medium.com/@geetkal67/attention-networks-a-simple-way-to-understand-self-attention-f5fb363c736d">Attention Networks : A simple way to understand... | Medium</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对 Bambu Lab 的安全理由表示怀疑，指出通过用户代理进行冒充并非真正的威胁。有人回忆说，局域网模式是之前社区施压后才添加的，表明用户愤怒可以影响公司政策。其他人建议考虑 Prusa 等更开放的替代品。
+**社区讨论**: 评论者讨论了谷歌的蒸馏防御可能降低学生模型性能的担忧，建议发布实时 demo 便于测试，并指出有其他研究人员独立复现了无 MLP 的发现。整体态度积极但谨慎，关注实际评估和检测风险。
 
-**标签**: `#open source`, `#3D printing`, `#Bambu Lab`, `#community backlash`, `#security`
+**标签**: `#machine learning`, `#function calling`, `#distillation`, `#open source`, `#small models`
 
 ---
 
 <a id="item-8"></a>
-## [EFF 向第四巡回法院主张：边境电子设备搜查须有搜查令](https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant) ⭐️ 8.0/10
+## [工作时间贡献开源指南](https://ossresistance.com/) ⭐️ 8.0/10
 
-电子前哨基金会（EFF）已向美国第四巡回上诉法院提交法律意见书，主张无搜查令的边境电子设备搜查违反第四修正案。 此案可能为边境数字隐私权树立先例，目前政府依据边境搜查例外原则主张宽泛的无令搜查权。 边境搜查例外目前允许在美国边境 100 英里内进行无令搜查，影响约 80%的人口。EFF 主张电子设备包含大量个人数据，应受到更高程度的保护。
+一份名为“Open Source Resistance”的新指南倡导员工在工作时间贡献开源项目，将其定位为商业利益，例如免费代码审查和上游维护。 这之所以重要，是因为它提供了一种实用策略，通过将贡献者的努力与雇主利益对齐来解决开源可持续性问题，可能增加企业对开源的参与。 该指南强调将请求定位为商业优势而非慈善行为，并警告称，若无正式协议，工作时间编写的代码通常归雇主所有，从而产生法律障碍。
 
-hackernews · hn_acker · May 12, 21:48 · [社区讨论](https://news.ycombinator.com/item?id=48115059)
+hackernews · mikemcquaid · May 13, 15:13 · [社区讨论](https://news.ycombinator.com/item?id=48123015)
 
-**背景**: 边境搜查例外是一项法律原则，允许在国际边境无需可能原因进行无令搜查。然而，法院越来越多地质疑该例外是否适用于电子设备的数字内容，因为这涉及巨大的隐私利益。
+**背景**: 开源可持续性是指以有限资源（如时间和资金）维护开源项目的挑战。许多开发者利用个人时间贡献开源，但公司常常从这些项目中受益却不回馈。围绕知识产权的公司政策和法律顾虑使得员工在工作时间贡献变得困难，即使这对雇主有利。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Border_search_exception">Border search exception</a></li>
-<li><a href="https://en.wikipedia.org/wiki/United_States_Court_of_Appeals_for_the_Fourth_Circuit">United States Court of Appeals for the Fourth Circuit - Wikipedia</a></li>
+<li><a href="https://www.infoworld.com/article/2318628/corporate-open-source-contribution-policies-are-needed.html">Corporate open source contribution policies are needed | InfoWorld</a></li>
+<li><a href="https://www.lexisnexis.com/community/insights/legal/b/practical-guidance/posts/do-your-due-diligence-open-source-software-checklist">Do Your Due Diligence: Open Source Software Checklist</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论者指出被告因持有儿童性虐待材料（CSAM）被定罪，但强调重要的宪法权利案件往往涉及不具同情心的被告。有评论者指出边境区域向内陆延伸 100 英里，覆盖美国 80%的人口，使此问题具有广泛相关性。
+**社区讨论**: 评论强调，将贡献定位为商业利益可以获得雇主许可，但法务部门通常会造成漫长的正式审批延迟。一些用户认为这只是做好本职工作而非抵抗，另一些人则指出知识产权所有权的司法辖区差异。
 
-**标签**: `#privacy`, `#Fourth Amendment`, `#EFF`, `#border searches`, `#civil liberties`
+**标签**: `#open source`, `#corporate policy`, `#legal`, `#sustainability`, `#contributions`
 
 ---
 
 <a id="item-9"></a>
-## [加拿大 C-22 法案用后门和数据保留威胁加密通讯](https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare) ⭐️ 8.0/10
+## [SpaceX 与谷歌磋商轨道数据中心合作](https://www.wsj.com/tech/spacex-google-in-talks-to-explore-data-centers-in-orbit-7b7799e2) ⭐️ 8.0/10
 
-加拿大的 C-22 法案是去年监控法案的重新包装版本，强制要求数据保留和加密后门，可能阻止加拿大的加密消息服务。 如果通过，C-22 法案可能迫使 Signal 和 WhatsApp 等加密消息应用屏蔽加拿大用户或削弱其安全性，为全球隐私权树立危险先例。 该法案要求电信提供商将用户数据保留两年，并实施一种“技术能力”，允许执法部门访问加密通信，实际上创建了一个后门。
+谷歌正与 SpaceX 谈判，拟在“Project Suncatcher”项目下于 2027 年前发射搭载张量处理单元（TPU）的原型卫星。 此举可能开创太空 AI 计算先河，利用无限太阳能和被动冷却减少对地面数据中心的依赖，并强化 SpaceX 的 IPO 叙事。 原型卫星将测试自由空间光通信卫星间链路和集群星座运行；SpaceX 近期还与 Anthropic 达成了 300 兆瓦地面算力交易。
 
-hackernews · Brajeshwar · May 12, 17:35 · [社区讨论](https://news.ycombinator.com/item?id=48111531)
+telegram · zaihuapd · May 12, 16:28
 
-**背景**: 加密后门是故意植入加密系统的漏洞，允许授权的第三方访问。强制数据保留法律迫使公司在一定期限内存储用户数据。这两种措施都因破坏安全和助长大规模监控而受到隐私倡导者的广泛批评。
+**背景**: 轨道数据中心利用太空丰富的太阳能和自然冷却，克服地球能源和土地限制。谷歌和 SpaceX 等公司将其视为高能耗 AI 工作负载的解决方案。Project Suncatcher 是谷歌将 AI 计算送入轨道的计划，初期使用 TPU。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Encryption_backdoor">Encryption backdoor</a></li>
-<li><a href="https://www.eff.org/issues/mandatory-data-retention">Mandatory Data Retention | Electronic Frontier Foundation</a></li>
+<li><a href="https://news.bitcoin.com/google-launches-project-suncatcher-to-put-ai-compute-in-space/">Google Launches Project Suncatcher to Put AI Compute in Space</a></li>
+<li><a href="https://www.linkedin.com/pulse/googles-project-suncatcher-next-frontier-ai-power-could-faisal-khan-9nkkc">Google’s Project Suncatcher : The Next Frontier of AI Power Could Be...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Space-based_data_center">Space-based data center - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者强烈担心该法案将迫使加密服务屏蔽加拿大人，有人指出该法案的重新包装是一种坚持策略。另一评论者讽刺地欢迎政府的'极权主义一面'，认为是创新的驱动力，而第三位评论者则哀叹加拿大缺乏政治解决方案。
-
-**标签**: `#privacy`, `#surveillance`, `#encryption`, `#Canada`, `#legislation`
+**标签**: `#SpaceX`, `#Google`, `#orbital data center`, `#AI infrastructure`, `#space computing`
 
 ---
 
 <a id="item-10"></a>
-## [Canvas 遭勒索软件攻击，扰乱美国学校期末周](https://t.me/zaihuapd/41342) ⭐️ 8.0/10
+## [Google 将用 AI 驱动的 Googlebook 取代 Chromebook](https://www.techpowerup.com/348969/google-prepares-googlebook-as-a-chromebook-successor-powered-by-gemini) ⭐️ 8.0/10
 
-Canvas（一款广泛使用的学习管理系统）遭受勒索软件攻击，导致美国多所学校的成绩、资料和测验访问在期末周中断。黑客组织 ShinyHunters 声称对此次攻击负责，Canvas 的开发商 Instructure 在进入维护模式后已为大多数用户恢复了服务。 此事件突显了关键教育基础设施在学术关键时期的脆弱性，可能影响数百万学生和教职工。它强调了针对教育行业的勒索软件威胁日益增长，而教育行业通常网络安全资源有限。 ShinyHunters 还声称对 5 月 1 日另一起涉及 Instructure 的事件负责，该事件导致用户名、邮箱地址和学生 ID 号泄露。此次攻击迫使 James Madison University 将原定周五的考试推迟至周三，且据称影响范围覆盖大量机构。
+Google 计划于 2026 年秋季推出名为 'Googlebook' 的新笔记本品牌，与宏碁、华硕、戴尔、惠普和联想等主要 OEM 合作。Googlebook 将运行代号为 Aluminium OS 的安卓与 Chrome OS 融合操作系统，并深度集成 Gemini AI，包括能提供上下文 AI 辅助和图像生成的 'Magic Pointer' 功能。 从 Chromebook 转向 Googlebook 代表了 Google 的重大战略调整，将两大操作系统合并，并将 AI 直接嵌入笔记本体验中。这可能会通过提供更智能、统一的平台来重新定义低成本笔记本市场，挑战传统的 Windows 和 macOS 设备。 Aluminium OS 基于 Android 16 并融合了 ChromeOS 功能，而 Googlebook 硬件将包含名为 'Glowbar' 的 RGB 灯条。Magic Pointer 由 Google DeepMind 构建，允许用户指向屏幕内容以获取 AI 生成的上下文或通过 Gemini 创建图像。
 
-telegram · zaihuapd · May 12, 09:16
+telegram · zaihuapd · May 13, 00:02
 
-**背景**: Canvas 是由 Instructure 开发的基于云的学习管理系统（LMS），广泛用于 K-12、高等教育和企业培训中的课程管理和学生互动。ShinyHunters 是一个自 2019 年活跃的臭名昭著的黑帽黑客组织，以大规模数据泄露和勒索闻名。勒索软件攻击通过加密数据并索要解密赎金，往往造成严重中断。
+**背景**: Chromebook 是 Google 的廉价笔记本，运行轻量级的 ChromeOS，以 Chrome 浏览器和网络应用为中心。Gemini 是 Google 的多模态 AI 模型系列，类似于 OpenAI 的 GPT-4。安卓与 ChromeOS 合并为 Aluminium OS 的传闻已流传多年，旨在结合安卓的应用生态与 ChromeOS 的桌面功能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Canvas_(Learning_Management_System)">Canvas (Learning Management System)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ShinyHunters">ShinyHunters - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Instructure">Instructure - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Aluminium_OS">Aluminium OS</a></li>
+<li><a href="https://deepmind.google/blog/ai-pointer/">Shaping the future of AI interaction by reimagining the mouse pointer — Google DeepMind</a></li>
+<li><a href="https://9to5google.com/2026/05/12/deepmind-googlebook-magic-pointer/">DeepMind details Googlebook ‘Magic Pointer’ with demos you can try, also coming to Gemini in Chrome</a></li>
 
 </ul>
 </details>
 
-**标签**: `#cybersecurity`, `#ransomware`, `#Canvas`, `#education`, `#data breach`
+**标签**: `#Google`, `#Gemini AI`, `#Chromebook`, `#Android`, `#ChromeOS`
 
 ---
 
 <a id="item-11"></a>
-## [SpaceX 与谷歌磋商轨道数据中心发射合作](https://www.wsj.com/tech/spacex-google-in-talks-to-explore-data-centers-in-orbit-7b7799e2) ⭐️ 8.0/10
+## [三星工会抗议致芯片产出骤降，威胁供应链](https://t.me/zaihuapd/41355) ⭐️ 8.0/10
 
-谷歌与 SpaceX 正在就火箭发射协议进行谈判，以部署谷歌的轨道数据中心项目“Project Suncatcher”，计划在 2027 年前发射原型卫星。 此次合作可能通过提供太空计算能力来革新云计算和 AI，减少对地面能源网络和土地成本的依赖，同时也将 SpaceX 的 IPO 围绕这一能力展开。 谷歌正与 Planet Labs 合作制造卫星，并构想由 81 颗卫星组成的 1 公里计算集群阵列。SpaceX 还与 Anthropic 达成协议，提供 300 兆瓦地面算力及超过 22 万块 Nvidia GPU。
+三星电子最大工会称，因大量员工参与加薪抗议集会，周四夜班期间韩国本土芯片产量大幅下降，代工和存储芯片产出分别骤降 58%和 18%。 全球最大存储芯片制造商发生劳资纠纷，可能扰乱全球半导体供应链；若 5 月 21 日启动为期 18 天的全面罢工，依赖三星芯片的科技巨头将受波及。 工会要求取消奖金上限并大幅上调基本工资，已向资方发出最后通牒；58%的代工产出下降和 18%的存储产出下降发生在周四晚 10 点至周五早 6 点的夜班时段。
 
-telegram · zaihuapd · May 12, 16:28
+telegram · zaihuapd · May 13, 01:11
 
-**背景**: 轨道数据中心是指在太空中放置服务器，利用太阳能并绕过地球上的能源限制。这一概念有着历史渊源，如军事项目“Brilliant Pebbles”和太空发展局的 PWSA 架构。Starcloud 等公司已提出在轨道上建设吉瓦级 AI 计算设施。
+**背景**: 三星电子是全球领先的半导体制造商，既生产代工芯片（为客户定制芯片）也生产存储芯片（DRAM、NAND）用于全球市场。代工是指制造其他公司设计的芯片，而存储芯片是三星的核心业务。罢工将扰乱全球电子供应链的关键环节。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.google/innovation-and-ai/technology/research/google-project-suncatcher/">Meet Project Suncatcher, a research moonshot to scale machine learning compute in space.</a></li>
-<li><a href="https://www.forbes.com/sites/anishasircar/2025/11/11/google-unveils-project-suncatcher-to-run-ai-on-solar-satellites-in-orbit/">Google Plans To Run AI Data Centers In Space With Project Suncatcher</a></li>
-<li><a href="https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs-envisions-1km-arrays-of-81-satellite-compute-clusters/">Project Suncatcher: Google to launch TPUs into orbit with Planet Labs, envisions 1km arrays of 81-satellite compute clusters - DCD</a></li>
+<li><a href="https://www.youtube.com/watch?v=-SdOm1GK6MM">起底 晶 圆 代 工 行业的5大金刚</a></li>
 
 </ul>
 </details>
 
-**标签**: `#轨道数据中心`, `#SpaceX`, `#Google`, `#AI算力`, `#卫星计算`
+**标签**: `#semiconductor`, `#Samsung`, `#labor dispute`, `#chip production`, `#supply chain`
 
 ---
 
 <a id="item-12"></a>
-## [谷歌将推出‘Googlebook’笔记本取代 Chromebook，集成 Gemini AI](https://www.techpowerup.com/348969/google-prepares-googlebook-as-a-chromebook-successor-powered-by-gemini) ⭐️ 8.0/10
+## [小米开源自动驾驶潜空间推理框架 OneVL](https://mp.weixin.qq.com/s/7po3r6YtmuXm8Xny1bw61Q) ⭐️ 8.0/10
 
-谷歌宣布计划今年秋季推出‘Googlebook’笔记本电脑，取代 Chromebook 品牌。新设备将运行基于 Android 16 和 ChromeOS 的 Aluminium OS，深度集成 Gemini AI，包括 Magic Pointer 和 Cast My Apps 等功能。 这标志着 Google 笔记本电脑产品线的重大品牌重塑和战略转变，从轻量级的 ChromeOS 转向以 AI 为核心的、更强大的基于 Android 的系统。Gemini AI 的集成可能重新定义用户与笔记本电脑的交互方式，对 Chromebook 主导的教育和企业市场产生潜在影响。 Googlebook 将配备硬件‘Glowbar’RGB 灯条。Magic Pointer 功能允许用户悬停在屏幕内容上，获取 AI 驱动的上下文建议并生成图像，而 Cast My Apps 则让用户可直接从笔记本电脑操作 Android 手机。
+小米发布 OneVL——一种一步式潜空间推理框架，将视觉-语言-动作（VLA）模型与世界模型统一用于自动驾驶，并已全面开源代码和权重。 该框架在多项基准上达到最优性能，包括超越显式思维链推理，同时将推理延迟降至传统 VLA 自回归方法的 5.4%，有望加速实时自动驾驶系统。 OneVL 使用潜空间标记（latent token）编码物理因果关系和驾驶意图，在训练时通过双辅助解码器预测未来画面和可读思维链，推理时全部移除以实现一步并行生成。在 NAVSIM 上 PDM 分数达到 88.84，超过显式 CoT 的 88.29。
 
-telegram · zaihuapd · May 13, 00:02
+telegram · zaihuapd · May 13, 10:33
 
-**背景**: Chromebook 是运行 Google ChromeOS 的经济型笔记本电脑，主要用于教育和企业的网络任务。Google Gemini 是一种多模态 AI 模型，能够处理文本、代码、图像、音频和视频。新的 Aluminium OS 将 Android 和 ChromeOS 融合成一个统一的桌面操作系统。
+**背景**: 自动驾驶依赖于环境感知和动作规划。传统的视觉-语言-动作（VLA）模型生成显式的中间推理步骤，可能较慢。潜空间推理将推理过程嵌入隐藏表示中，实现更快的推理。OneVL 将 VLA 与世界模型结合，共同进行感知和预测推理。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Aluminium_OS">Aluminium OS - Wikipedia</a></li>
-<li><a href="https://www.stuff.tv/news/google-introduces-the-googlebook-an-ai-powered-laptop-with-a-magic-pointer/">Google introduces the Googlebook – an AI-powered laptop with a 'Magic Pointer' | Stuff</a></li>
+<li><a href="https://github.com/xiaomi-research/onevl">GitHub - xiaomi-research/onevl</a></li>
+<li><a href="https://arxiv.org/abs/2604.18486">OneVL: One-Step Latent Reasoning and Planning with Vision ...</a></li>
+<li><a href="https://huggingface.co/xiaomi-research/OneVL_ROADWork">xiaomi-research/OneVL_ROADWork · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者表达了强烈的怀疑，许多人批评 Google 对 AI 的营销显得噱头十足，并因 Google 历史上频繁砍掉产品而表示不信任。一些人质疑其市场定位，另一些人则希望看到原生的 Linux 桌面操作系统，而非基于 Android 的系统。
-
-**标签**: `#Google`, `#Chromebook`, `#Gemini AI`, `#Hardware`, `#Operating System`
+**标签**: `#autonomous driving`, `#latent space reasoning`, `#VLA`, `#world models`, `#open source`
 
 ---
 
 <a id="item-13"></a>
-## [资深开发者为何难以传达专长](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise) ⭐️ 7.0/10
+## [免费 .city.state.us 地区域名设置指南 (2025)](https://fredchan.org/blog/locality-domains-guide/) ⭐️ 7.0/10
 
-文章分析了资深开发者内部知识与有效传达能力之间的差距，指出“知识诅咒”和初级开发者不愿寻求指导的问题。 有效传递专长对于知识转移和团队生产力至关重要；这种失败可能导致重复错误和初级开发者的职业发展停滞。 资深开发者常依赖难以言说的内部“世界模型”，而初级开发者可能认为导师不必要或难以接近。关于资深者规避风险与初学者热衷尝试的笼统说法过于简化。
+一篇详细指南介绍了如何注册免费的 *.city.state.us 地区域名，包括获取名称服务器和向委托管理人提交注册模板的步骤。 该指南的重要性在于它揭开了小众但宝贵的域名选项的神秘面纱，使用户能够获得免费的、基于地区的域名，这些域名根植于美国地理，可用于个人或本地项目。 注册过程通常需要向地区的委托管理人发送 Interim .US Domain Template，用户需自行管理 DNS；但 .us 域名不允许 WHOIS 隐私保护，存在隐私风险。
 
-hackernews · nilirl · May 12, 15:08 · [社区讨论](https://news.ycombinator.com/item?id=48109460)
+hackernews · speckx · May 13, 14:45 · [社区讨论](https://news.ycombinator.com/item?id=48122635)
 
-**背景**: “知识诅咒”是一种认知偏差，指专家假设他人也理解自己所知，导致沟通困难。在软件工程中，资深开发者多年积累的隐性知识往往难以清晰地向经验较少的同事表述。
+**背景**: .us 国家及地区顶级域采用基于地区的结构，域名格式为 organization-name.city.state.us。在 2002 年之前，只允许四级域名注册。许多地区已将管理权委托给不同的注册商，其中一些提供免费注册。
 
-**社区讨论**: 社区评论指出内部世界模型是核心障碍，笼统陈述无效，且初级开发者通常对指导不感兴趣。有人认为“实验者 vs 规避风险”的框架忽略了具体情境。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://fredchan.org/blog/locality-domains-guide/">Setting up a free *.city.state.us locality domain | Frederick ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/.us">.us - Wikipedia</a></li>
+<li><a href="https://www.about.us/locality-structure">Register Your .US Web Address Today | .US Domains - About.US</a></li>
 
-**标签**: `#communication`, `#expertise`, `#senior-developers`, `#mentorship`, `#software-engineering`
+</ul>
+</details>
+
+**社区讨论**: 社区成员分享了在不同注册商的经历，包括与已停止运营的操作者打交道的经历。一个主要担忧是 .us 域名禁止 WHOIS 隐私保护，这带来了安全隐患。部分用户发现了一个新的在线注册系统 localitymanagement.us。
+
+**标签**: `#domains`, `#.us`, `#locality domains`, `#DNS`, `#tutorials`
 
 ---
 
 <a id="item-14"></a>
-## [请愿要求《纽约时报》《大西洋月刊》《今日美国》取消对 Wayback Machine 的屏蔽](https://www.savethearchive.com/newsleaders/) ⭐️ 7.0/10
+## [美国在 AI 商业化中领先，但盈利能力存疑](https://avkcode.github.io/blog/us-winning-ai-race.html) ⭐️ 7.0/10
 
-在 savethearchive.com 上发起的一项请愿敦促《纽约时报》《大西洋月刊》和《今日美国》停止通过 robots.txt 屏蔽互联网档案馆的 Wayback Machine，旨在恢复公众对其内容存档版本的访问。 这凸显了出版商对内容的控制与公众对数字保存需求之间的张力，可能为网络档案馆如何访问付费墙或受限新闻网站树立先例。 Wayback Machine 遵守 robots.txt 指令，一旦这些网站屏蔽它，过去和未来的存档将无法访问；请愿特别要求解除屏蔽，而非全面的爬取权限。
+一篇观点文章认为美国在 AI 商业化方面领先，但社区评论质疑这种领先能否转化为盈利或长期可持续性。 这场辩论凸显了 AI 行业的一个关键不确定性：在商用 AI 产品上的巨额投资能否带来可持续的利润，这可能重塑全球科技竞争格局。 文章聚焦于 Anthropic、OpenAI 和 Google 等美国公司，而评论者还提到了中国模型和 Mistral 等开源替代方案。
 
-hackernews · doener · May 12, 23:11 · [社区讨论](https://news.ycombinator.com/item?id=48115807)
+hackernews · akrylov · May 13, 13:53 · [社区讨论](https://news.ycombinator.com/item?id=48121929)
 
-**背景**: robots.txt 是一种自愿协议，告知网络爬虫允许访问网站的哪些部分。由互联网档案馆运营的 Wayback Machine 会随时间保存网站的快照。一些新闻媒体最近添加了指令以屏蔽互联网档案馆的爬虫，原因涉及版权、规避付费墙或对其内容的控制。
+**背景**: AI 竞赛指的是全球范围内开发和部署先进 AI 技术的竞争。商业化涉及将 AI 研究转化为盈利的产品和服务，被视为中美之间的关键战场。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Robots.txt_protocol">Robots.txt protocol</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine - Wikipedia</a></li>
+**社区讨论**: 评论者对美国领导地位的可持续性表示怀疑，指出缺乏盈利能力、开源模型可能带来的颠覆以及贸易政策等地缘政治风险。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者对遵守道德准则（尊重 robots.txt）反而导致失去访问权限表示失望，而忽略这些指令却能获利。有人建议实施一年的延迟发布，或使用类似 NewsBank 的 30 天禁运托管服务。
-
-**标签**: `#digital preservation`, `#internet archive`, `#robots.txt`, `#web archiving`, `#ethics`
+**标签**: `#AI`, `#commercialization`, `#US-China competition`, `#machine learning`
 
 ---
 
 <a id="item-15"></a>
-## [Obsidian 推出社区网站和自动化插件审核系统](https://obsidian.md/blog/future-of-plugins/) ⭐️ 7.0/10
+## [Google 发布 Gemini Intelligence，今夏登陆 Pixel 和三星](https://9to5google.com/2026/05/12/gemini-intelligence-announcement/) ⭐️ 7.0/10
 
-Obsidian 首席执行官 Kepano 宣布推出新的社区网站和自动化插件审核系统，该系统历时近一年开发，旨在应对日益增长的插件提交数量。 此次更新缓解了令开发者沮丧并导致团队疲惫的规模化瓶颈，从而加快插件发布速度，为 Obsidian 用户构建更健康的生态系统。 自动化系统包含 eslint-plugin-obsidianmd 等检查，但缺乏沙箱权限模型，引起社区成员对安全漏洞（如 RCE）的担忧。
+Google 宣布推出 Gemini Intelligence 系列 AI 功能，面向高端 Android 设备，今夏将率先登陆最新 Pixel 和三星 Galaxy 手机，年内扩展至手表、汽车、眼镜和笔记本。 这标志着 Google 大力将先进 AI 深度集成到 Android 生态系统中，可能为设备端智能和跨设备用户体验树立新标杆。 主要功能包括基于 Material 3 的新视觉语言、屏幕上下文任务自动化、需手动启用的智能自动填充、Gboard 的“Rambler”语音输入（可清理自然口语），以及通过描述生成自定义小部件的“创建我的小部件”。
 
-hackernews · xz18r · May 12, 15:45 · [社区讨论](https://news.ycombinator.com/item?id=48109970)
+telegram · zaihuapd · May 13, 00:32
 
-**背景**: Obsidian 是一款流行的笔记应用，拥有庞大的社区插件生态系统。此前，所有插件均由一个小团队人工审核，导致提交积压。新系统旨在自动化审核流程，同时保持向后兼容性。
+**背景**: Gemini Intelligence 似乎是与 Android 17（代号“Cinnamon Bun”）相关的广泛 AI 计划，其首个公开测试版于 2026 年 2 月发布。Material 3 是 Google 的最新设计语言，从 Material You 演变而来，注重定制化和表现力。“Rambler”功能使用 Gemini 模型将随意口语转换为精炼文本，解决了常见听写痛点。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=48109970">The Future of Obsidian Plugins - Hacker News</a></li>
-<li><a href="https://www.reddit.com/r/ObsidianMD/comments/1tb6m7f/the_future_of_obsidian_plugins/">The future of Obsidian plugins : r/ObsidianMD - Reddit</a></li>
-<li><a href="https://github.com/TimFinnigan/obsidian-plugin-runbook">GitHub - TimFinnigan/ obsidian - plugin -runbook: Runbook for creating...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_Intelligence">Gemini Intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Material_3">Material 3</a></li>
+<li><a href="https://www.androidauthority.com/gboard-rambler-gemini-intelligence-3665653/">Gboard is learning to turn your rambling into polished text ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 首席执行官 Kepano 在评论中表达了兴奋之情并欢迎反馈。许多开发者对提交瓶颈得到缓解表示欢迎，但注重安全的用户批评缺乏权限系统和沙箱机制，认为当前模型不安全。
-
-**标签**: `#Obsidian`, `#plugins`, `#community`, `#security`, `#automation`
+**标签**: `#Google`, `#Gemini Intelligence`, `#AI features`, `#Android`, `#Pixel`
 
 ---
 
 <a id="item-16"></a>
-## [中国附条件批准腾讯收购喜马拉雅](https://www.samr.gov.cn/xw/zj/art/2026/art_c1b14339020e464fb46aa655a720ba48.html) ⭐️ 7.0/10
+## [Meta 员工反对用工作行为数据训练 AI](https://cybernews.com/ai-news/meta-employees-revolt-ai-mouse-keystroke-tracking/) ⭐️ 7.0/10
 
-中国市场监管总局于 5 月 11 日附条件批准腾讯收购喜马拉雅，要求双方履行五项承诺，以维护在线音频平台的市场竞争。 该决定为中国科技并购监管树立了先例，尤其是针对在线音频市场，旨在防止腾讯垄断市场并损害消费者和竞争对手的利益。 五项条件包括不得提高价格或减少免费内容、限期解除现有独家版权、以及不得限制内容创作者多平台分发等。监管机构认为这些措施将有效减少竞争损害。
+Meta 美国员工在多间办公室散发传单，反对公司推出的 Model Capability Initiative (MCI) 软件，该软件会追踪鼠标移动、屏幕活动并偶尔截屏，用于训练 AI 模型。 这场内部抗议凸显了 AI 发展目标与员工隐私权之间日益紧张的关系，可能为科技公司如何从员工身上收集数据树立先例。 Meta 发言人 Andy Stone 表示，收集的数据不会用于绩效评估，仅用于模型训练。员工则认为这种做法可能违反《国家劳动关系法》中关于组织和改善工作条件的保护条款。
 
-telegram · zaihuapd · May 12, 09:55
+telegram · zaihuapd · May 13, 01:56
 
-**背景**: 喜马拉雅是中国领先的在线音频平台，拥有庞大的用户群和内容库。腾讯作为大型科技集团，试图收购其控股权，引发反垄断担忧。附条件批准反映了中国持续监管大型科技公司、维护市场竞争的努力。
+**背景**: Model Capability Initiative (MCI) 是 Meta 公司内部的新工具，用于监控员工在工作相关应用和网站上的操作，以收集 AI 模型训练数据。为训练 AI 而监控员工是一个有争议的做法，可能涉及美国劳动法的法律问题。
 
-**标签**: `#antitrust`, `#regulation`, `#Tencent`, `#Ximalaya`, `#online audio`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/cvglyklz49jo">Meta to track workers' clicks and keystrokes to train AI - BBC</a></li>
+<li><a href="https://www.cnbc.com/2026/04/22/meta-tracks-employee-usage-on-google-linkedin-ai-training-project.html">Meta tracks employee usage on Google, LinkedIn AI training ...</a></li>
+<li><a href="https://money.usnews.com/investing/news/articles/2026-04-21/exclusive-meta-to-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data">Exclusive-Meta to Start Capturing Employee Mouse Movements ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Meta`, `#AI training`, `#employee privacy`, `#data ethics`, `#workplace surveillance`
 
 ---
 
 <a id="item-17"></a>
-## [Anthropic 拒绝中国智库接触最新 AI 模型](https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html) ⭐️ 7.0/10
-
-上月在新加坡的一场会议上，一名中国智库代表要求 Anthropic 向北京开放其最新 AI 模型的访问权限，Anthropic 当场拒绝。尽管这不是中国政府的正式请求，但已引起美国国家安全委员会的警惕。 这一事件凸显了美中在先进 AI 技术上的紧张局势升级，白宫认为这是北京试图获取美国尖端 AI 模型的更广泛努力的一部分。它突显了国家安全关切，并可能导致对 AI 的出口管制进一步收紧。 该会议由卡内基国际和平基金会召集。Anthropic 和 OpenAI 的最新技术进步被视为进一步拉大了美国在 AI 领域的领先优势，这使得访问限制变得更加关键。
-
-telegram · zaihuapd · May 12, 12:57
-
-**背景**: 出于国家安全担忧，美国已日益限制向中国出口先进的 AI 芯片和模型。Anthropic 和 OpenAI 是大型语言模型的领先开发者，其最新系统被认为是行业最前沿。中国实体一直通过包括智库和学术交流在内的多种渠道寻求获取这些模型。
-
-**标签**: `#AI`, `#geopolitics`, `#Anthropic`, `#national security`, `#model access`
-
----
-
-<a id="item-18"></a>
-## [美国商务部移除 AI 安全测试协议细节](https://www.reuters.com/legal/litigation/microsoft-google-xai-security-test-details-deleted-us-government-website-2026-05-11/) ⭐️ 7.0/10
-
-美国商务部悄然从其网站上移除了与 Google、xAI 和 Microsoft 达成的协议细节，这些协议涉及在新 AI 模型公开部署前由政府科学家进行安全漏洞测试。 此次移除引发了对 AI 安全监管透明度的担忧，尤其是前沿 AI 模型存在重大风险。缺乏解释削弱了公众对政府与行业在 AI 安全方面合作的信任。 原始公告页面在显示 404 错误后重定向到 AI 标准与创新中心（CAISI）网站。商务部及特朗普白宫发言人均未对移除事件置评。
-
-telegram · zaihuapd · May 12, 13:38
-
-**背景**: AI 安全测试包括在部署前评估模型是否存在提示注入、数据投毒等漏洞。美国政府设立了 AI 标准与创新中心（CAISI）作为其 AI 安全研究所，类似于英国的 AI 安全研究所。被移除的协议是主要 AI 公司自愿进行部署前测试承诺的一部分。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Center_for_AI_Standards_and_Innovation">Center for AI Standards and Innovation</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 新闻条目或搜索结果中未提供社区评论。
-
-**标签**: `#AI regulation`, `#US government`, `#model safety`, `#transparency`, `#policy`
-
----
-
-<a id="item-19"></a>
-## [谷歌宣布夏天推出 Android 版 Gemini Intelligence](https://9to5google.com/2026/05/12/gemini-intelligence-announcement/) ⭐️ 7.0/10
-
-谷歌宣布了一套面向 Android 的 AI 功能集 Gemini Intelligence，今年夏天将首先登陆 Pixel 和三星设备，并在年内扩展至手表、汽车、眼镜和笔记本。 这标志着将先进的主动式 AI 嵌入 Android 生态系统的重要一步，实现了上下文感知自动化和自然语音输入，可能改变日常智能手机的使用方式。 主要功能包括基于 Material 3 的视觉更新、屏幕上下文自动化、智能自动填充、可优化自然口语为精炼文本的 Gboard 'Rambler'语音输入，以及根据描述生成自定义小部件的'创建我的小部件'工具。
-
-telegram · zaihuapd · May 13, 00:32
-
-**背景**: 谷歌的 Gemini Intelligence 建立在其 Gemini AI 模型之上，该模型现已作为 Gemini 3 Pro 提供给开发者。Material 3（Material You）是谷歌的 Android 设计语言，Gboard 是默认键盘应用。这些功能旨在让 AI 在移动设备上更具主动性和易用性。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/">Gemini Intelligence brings proactive AI to Android</a></li>
-<li><a href="https://9to5google.com/2026/05/12/gemini-intelligence-announcement/">Gemini Intelligence brings gen UI widgets, Gboard 'Rambler' to Android, debuting on Pixel & Samsung</a></li>
-<li><a href="https://www.androidauthority.com/gboard-rambler-gemini-intelligence-3665653/">Gboard is learning to turn your stream-of-consciousness rambling into polished text</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#Google`, `#Android`, `#smartphone`
-
----
-
-<a id="item-20"></a>
-## [三星工会抗议导致芯片产出暴跌 58%](https://t.me/zaihuapd/41355) ⭐️ 7.0/10
-
-三星电子最大工会报告称，由于大量员工缺席参加加薪抗议集会，韩国本土工厂在周四夜班时段的芯片产出大幅下降，其中代工芯片产量下降 58%，存储芯片下降 18%。 这一事件对全球半导体供应链可能造成影响，尤其是代工和存储芯片领域。工会威胁从 5 月 21 日起进行 18 天全面罢工，可能进一步加剧供应短缺。 此次劳资冲突的核心是要求取消奖金上限并大幅提高基本工资。工会已发出最后通牒：如果管理层不妥协，将从 5 月 21 日开始全面罢工。
-
-telegram · zaihuapd · May 13, 01:11
-
-**背景**: 半导体制造需要连续运行，任何生产中断都可能产生连锁反应。三星是存储和代工芯片领域的全球领导者。劳资纠纷虽然罕见，但一旦发生代价高昂。
-
-**标签**: `#Samsung`, `#semiconductor`, `#supply chain`, `#labor dispute`, `#chips`
-
----
-
-<a id="item-21"></a>
 ## [英伟达 CEO 黄仁勋将随特朗普访华](https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html) ⭐️ 7.0/10
 
-英伟达确认 CEO 黄仁勋将应特朗普邀请参加本周的北京之行，以支持美国及政府目标。 这标志着在持续的对华先进 AI 芯片出口限制背景下，一家主要 AI 芯片公司 CEO 高调参与美中贸易外交，具有重大影响。 黄仁勋是受邀的十多位美国高管之一，此行包括周四和周五与中国国家主席习近平的会晤。近四年来英伟达的先进 AI 芯片对华销售面临更严格限制。
+英伟达确认，CEO 黄仁勋将应特朗普邀请参加其即将访华的行程，以支持美国政府目标。此次行程包括会见中国国家主席习近平。 此次高调参与凸显了美中之间 AI 芯片贸易的战略重要性，英伟达正面临对其先进 AI 芯片的持续出口限制。此次活动可能影响未来的贸易政策和半导体法规。 特朗普将带领十多名美国企业高管前往北京，并计划在周四和周五会见习近平主席。英伟达的先进 AI 芯片在过去四年中对华销售受到更严格的限制。
 
 telegram · zaihuapd · May 13, 02:41
 
-**背景**: 美国以国家安全为由，对向中国出口高端 AI 芯片实施了逐步升级的管制。作为 H100、B200 等 AI 芯片的主要供应商，英伟达直接受到影响。CEO 参与这类外交活动表明业界正应对地缘政治紧张局势。
+**背景**: 美国对 AI 芯片和半导体实施了出口管制，主要针对中国，以保护国家安全。这些限制影响了英伟达向中国客户销售高性能 GPU（如 H100 和 H200）的能力。管制措施考虑了芯片的总处理性能和性能密度，并随着时间的推移逐步收紧。
 
-**标签**: `#NVIDIA`, `#AI chips`, `#US-China relations`, `#chip export restrictions`, `#geopolitics`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/United_States_export_controls_on_AI_chips_and_semiconductors">United States export controls on AI chips and semiconductors - Wikipedia</a></li>
+<li><a href="https://www.tomshardware.com/news/us-govt-speeds-up-export-restrictions-for-nvidias-gpus">US Govt Speeds Up Export Restrictions for Nvidia's GPUs</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Nvidia`, `#AI chips`, `#geopolitics`, `#Trump`, `#China`
 
 ---
